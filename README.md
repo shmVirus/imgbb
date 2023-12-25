@@ -26,7 +26,7 @@ Make sure you have the following dependencies installed:
 ## Features
 - Upload one or more images to ImgBB from the command line.
 - Set expiration time for images (default: 10 minutes, 0 for account default).
-- Display Viewer, Direct, Full, Thumb, and Delete URLs for each uploaded image.
+- Displays Viewer, Direct, Medium, Thumb, and Delete URLs for each uploaded image.
 
 ## Usage
 ```bash
@@ -37,4 +37,4 @@ Options:
                           default: 10, use 0 for account default
    -h, --help             Display this help message
 
-Shows: Viewer, Direct, Full, Thumb, Delete URLs
+Shows: Viewer, Direct, Medium, Thumb, Delete URLs
