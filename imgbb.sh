@@ -110,7 +110,7 @@ for file in $files; do
         formatted_result+="Direct\t: $(echo "$result" | jq -r '.url')\n"
         formatted_result+="--\n"
         formatted_result+="Thumb URL\t: $(echo "$result" | jq -r '.thumb_url')\n"
-        formatted_result+="Medium URL\t: $(echo "$result" | jq -r '.medium_url // .data.url')\n"
+        formatted_result+="Medium URL\t: $(echo "$result" | jq -r '.medium_url // .url')\n"
         formatted_result+="Delete URL\t: $(echo "$result" | jq -r '.delete_url')\n"
         formatted_result+="--\n"
         formatted_result+="Expires at\t: $expires_at\n"
